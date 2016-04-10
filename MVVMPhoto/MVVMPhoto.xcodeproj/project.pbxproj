@@ -12,10 +12,13 @@
 		2116A637DB001B9B073E57A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2116A8FD4F6583F228050183 /* Main.storyboard */; };
 		2116A67534D8F731D34CAC44 /* MVVMPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A51A97003703F652A349 /* MVVMPhotoTests.m */; };
 		2116A6D1885A45AF75FF1B86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2116ABB83FC33417158431AF /* Assets.xcassets */; };
+		2116A83CAB5D0D548202E952 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116AC5BE9BF6543C46BAFB0 /* NetworkManager.m */; };
 		2116AABD8820EA63504580A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A753B49DB170C54BC885 /* main.m */; };
+		2116AC596CEE473DA099AC66 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116A5D10A71FE528403ADBF /* Constant.m */; };
 		2116ACF0C3FCE9EC4E85F47C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116AA9CB3737D35A7CB65A1 /* AppDelegate.m */; };
 		2116AD54CF2A5C0879A7345F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2116AF04569F60516E79A810 /* ViewController.m */; };
 		2116AE537218782D20C8A25B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2116A0DB5BE81EAD5D1E142B /* Info.plist */; };
+		4DF811CBFAAC3DE58834951C /* Pods_MVVMPhoto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B9B4AA8CBC3C9058A0650D /* Pods_MVVMPhoto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,16 +35,23 @@
 		2116A075E44AB4D971D10A90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2116A0DB5BE81EAD5D1E142B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		2116A51A97003703F652A349 /* MVVMPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMPhotoTests.m; sourceTree = "<group>"; };
+		2116A5D10A71FE528403ADBF /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		2116A5ED3292655F54C041E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2116A618ACB36A0AB3DD4111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2116A753B49DB170C54BC885 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2116A87B66091FD80159112F /* MVVMPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2116A9CF8B4130AB6DBBCEF3 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		2116A9E73513E85C27C0C73D /* MVVMPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2116AA9CB3737D35A7CB65A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2116AAED08C1FEC8854B28EC /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
 		2116ABAC8BFDF7B71828E1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		2116ABB83FC33417158431AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2116AC5BE9BF6543C46BAFB0 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
 		2116AF04569F60516E79A810 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2116AF1A644E6AF1B233B54F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2555532D1F038C3AD255D666 /* Pods-MVVMPhoto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMPhoto.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMPhoto/Pods-MVVMPhoto.release.xcconfig"; sourceTree = "<group>"; };
+		89B9B4AA8CBC3C9058A0650D /* Pods_MVVMPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E348AFF81E938C9D7A2642 /* Pods-MVVMPhoto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMPhoto.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMPhoto/Pods-MVVMPhoto.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DF811CBFAAC3DE58834951C /* Pods_MVVMPhoto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +73,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CDDEB4EB7E333A4506D2525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B9B4AA8CBC3C9058A0650D /* Pods_MVVMPhoto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2116A080870DF0F426FA64AC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2116A5D10A71FE528403ADBF /* Constant.m */,
+				2116A9CF8B4130AB6DBBCEF3 /* Constant.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2116A1010FD37073C0E8CBE7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2116A26A0980ED3811A75682 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		2116A50FAE953014B5B49D0E /* MVVMPhotoTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +111,13 @@
 				2116A51A97003703F652A349 /* MVVMPhotoTests.m */,
 			);
 			path = MVVMPhotoTests;
+			sourceTree = "<group>";
+		};
+		2116A6E12E9F999DC78CCB7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		2116A847869F6176D2BD6089 /* MVVMPhoto */ = {
@@ -83,8 +132,21 @@
 				2116A8FD4F6583F228050183 /* Main.storyboard */,
 				2116AF1A644E6AF1B233B54F /* ViewController.h */,
 				2116AF04569F60516E79A810 /* ViewController.m */,
+				2116A26A0980ED3811A75682 /* ViewControllers */,
+				2116A1010FD37073C0E8CBE7 /* Views */,
+				2116AD5025716C05DBDF06A9 /* Stores */,
+				2116A6E12E9F999DC78CCB7B /* Models */,
+				2116A92B4C975B4D1C324C6D /* ViewModels */,
+				2116A080870DF0F426FA64AC /* Helpers */,
 			);
 			path = MVVMPhoto;
+			sourceTree = "<group>";
+		};
+		2116A92B4C975B4D1C324C6D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		2116AAC73CC74A9FCBCB0056 /* Products */ = {
@@ -104,13 +166,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2116AD5025716C05DBDF06A9 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				2116AC5BE9BF6543C46BAFB0 /* NetworkManager.m */,
+				2116AAED08C1FEC8854B28EC /* NetworkManager.h */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
 		2116ADA61C7A585317923890 = {
 			isa = PBXGroup;
 			children = (
 				2116AAC73CC74A9FCBCB0056 /* Products */,
 				2116A847869F6176D2BD6089 /* MVVMPhoto */,
 				2116A50FAE953014B5B49D0E /* MVVMPhotoTests */,
+				600B7392EF3D5DBB5080BF36 /* Pods */,
+				1CDDEB4EB7E333A4506D2525 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		600B7392EF3D5DBB5080BF36 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3E348AFF81E938C9D7A2642 /* Pods-MVVMPhoto.debug.xcconfig */,
+				2555532D1F038C3AD255D666 /* Pods-MVVMPhoto.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2116A4D738EB5B2C89A1C3DC /* Build configuration list for PBXNativeTarget "MVVMPhoto" */;
 			buildPhases = (
+				D2737E4150E97C4CD99A6C0F /* Check Pods Manifest.lock */,
 				2116A19D90A228AA78B583BF /* Sources */,
 				2116A00364920816C2EC9A8B /* Frameworks */,
 				2116A7475E50C10231005593 /* Resources */,
+				C4724F8CF00372DA77AC77DF /* Embed Pods Frameworks */,
+				8F81C404EF85F58DAA3328C2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,6 +254,8 @@
 			mainGroup = 2116ADA61C7A585317923890;
 			productRefGroup = 2116AAC73CC74A9FCBCB0056 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+			);
 			projectRoot = "";
 			targets = (
 				2116AB48333AA331554B506E /* MVVMPhoto */,
@@ -199,6 +286,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8F81C404EF85F58DAA3328C2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMPhoto/Pods-MVVMPhoto-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4724F8CF00372DA77AC77DF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMPhoto/Pods-MVVMPhoto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2737E4150E97C4CD99A6C0F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2116A19D90A228AA78B583BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -207,6 +342,8 @@
 				2116AABD8820EA63504580A0 /* main.m in Sources */,
 				2116ACF0C3FCE9EC4E85F47C /* AppDelegate.m in Sources */,
 				2116AD54CF2A5C0879A7345F /* ViewController.m in Sources */,
+				2116A83CAB5D0D548202E952 /* NetworkManager.m in Sources */,
+				2116AC596CEE473DA099AC66 /* Constant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +399,7 @@
 		};
 		2116A7F4BF444B5DEEF6CBBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2555532D1F038C3AD255D666 /* Pods-MVVMPhoto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MVVMPhoto/Info.plist;
@@ -367,6 +505,7 @@
 		};
 		2116AE83028DC6878997EC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3E348AFF81E938C9D7A2642 /* Pods-MVVMPhoto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MVVMPhoto/Info.plist;
